@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? family= Stalinist+One & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background-image: url(img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.cabecalho{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    color: white;
+    float: right;
+    display: block;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color:rgb(194, 41, 41) ;
+}
+.rodape{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+}
+.img-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+
+}
+#texto-h{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+ }
+
+ .texto-p{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .texto-sinopse{
+    color: white;
+    text-align: center;
+ }
+ 
+
+
+
+
+
